@@ -1,0 +1,13 @@
+section ul {
+  margin: 12px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* 768 - 1; to support portrait mode iPads */
+@media (max-width: 767px) {
+  section ul {
+    grid-template-columns: 1fr;
+  }
+}

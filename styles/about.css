@@ -1,0 +1,12 @@
+section img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* 768 - 1; to support portrait mode iPads */
+@media (max-width: 767px) {
+  section img {
+    height: 200px;
+  }
+}
