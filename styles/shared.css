@@ -23,6 +23,10 @@ ul {
   padding: 0;
 }
 
+p a {
+  color: var(--color-cream);
+}
+
 #page-logo {
   order: 1;
   display: block;
