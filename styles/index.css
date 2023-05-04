@@ -3,7 +3,7 @@
   margin: 0;
   max-width: unset;
   height: 600px;
-  background-image: url("/images/background.jpg");
+  background-image: url("../images/background.jpg");
   background-size: cover;
   background-position: center 35%;
 }
