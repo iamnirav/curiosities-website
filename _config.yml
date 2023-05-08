@@ -22,7 +22,7 @@ title: The Curiosities Jazz Band
 email: curiositiesjazz@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Curiosities Jazz Band is a tiny ensemble playing the standards of the 1920s, ’30s, and ’40s.
-baseurl: /curiosities-website/ # the subpath of your site, e.g. /blog
+baseurl: /curiosities-website # the subpath of your site, e.g. /blog
 url: https://iamnirav.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  iamnirav
 
