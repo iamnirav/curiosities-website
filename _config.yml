@@ -27,6 +27,7 @@ url: https://iamnirav.github.io # the base hostname & protocol for your site, e.
 github_username:  iamnirav
 github: [metadata]
 
+# front matter defaults
 defaults:
   -
     scope:
