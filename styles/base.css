@@ -43,6 +43,12 @@ h3 {
   font-size: 24px;
 }
 
+/* utility */
+
+.centered {
+  text-align: center;
+}
+
 /* header */
 
 header {
@@ -102,7 +108,7 @@ header .close-nav-btn {
 
 section {
   max-width: 1024px;
-  margin: 24px auto;
+  margin: 48px auto;
   padding: 0 12px;
   box-sizing: border-box;
 }
@@ -171,23 +177,36 @@ ul.gallery a:hover h2 {
 
 footer {
   background: black;
+  padding: 24px;
 }
 
 footer ul {
-  padding: 24px;
   display: flex;
   justify-content: center;
 }
 
 footer li {
-  width: 64px;
-  height: 64px;
-  margin: 0 18px;
+  margin: 0 4px;
+  font-size: 36px;
+  background-color: black;
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
 }
 
-footer img {
-  width: 100%;
-  height: 100%;
+footer li .bi-youtube {
+  position: relative;
+  top: 1px;
+}
+
+footer ul a,
+footer p a {
+  color: white;
 }
 
 /* media queries */

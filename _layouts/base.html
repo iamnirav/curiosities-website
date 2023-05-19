@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="styles/base.css">
   <title>{% if page.title %}{{ page.title }} · {% endif %}The Curiosities Jazz Band</title>
 </head>
@@ -17,10 +18,12 @@
       <ul>
         <li id="page-logo"><a href="./"><img src="images/logo-transparent.png"
               alt="The Curiosities Jazz Band logo" /></a></li>
-        <li class="nav-link"><a href="about.html">About</a></li>
-        <li class="nav-link"><a href="media.html">Media</a></li>
-        <li class="nav-link after-logo"><a href="albums.html">Albums</a></li>
-        <li class="nav-link after-logo"><a href="contact.html">Contact</a></li>
+        <li class="nav-link {% if page.title == 'About' %}active{% endif %}"><a href="about.html">About</a></li>
+        <li class="nav-link {% if page.title == 'Media' %}active{% endif %}"><a href="media.html">Media</a></li>
+        <li class="nav-link {% if page.title == 'Albums' %}active{% endif %} after-logo"><a
+            href="albums.html">Albums</a></li>
+        <li class="nav-link {% if page.title == 'Contact' %}active{% endif %} after-logo"><a
+            href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <a href="#site-nav" class="open-nav-btn">≡</a>
@@ -28,14 +31,17 @@
   </header>
 
   {{ content }}
-  
+
   <footer>
     <ul>
-      <li><a href="https://instagram.com/curiositiesjazz" target="_blank"><img src="images/insta.png"
-            alt="Instagram logo"></a></li>
-      <li><a href="https://facebook.com/curiositiesjazz" target="_blank"><img src="images/facebook.png"
-            alt="Facebook logo"></a></li>
+      <li><a href="https://facebook.com/curiositiesjazz" target="_blank"><i class="bi bi-facebook"></i></a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLDgLQlwYUvD47NhmXDhozaNP81BX_hUtc" target="_blank"><i class="bi bi-youtube"></i></a></li>
+      <li><a href="https://instagram.com/curiositiesjazz" target="_blank"><i class="bi bi-instagram"></i></a></li>
+      <li><a href="https://niravsanghani.substack.com" target="_blank"><i class="bi bi-envelope-fill"></i></a></li>
     </ul>
+    <p class="centered">
+      <a href="mailto:curiositiesjazz@gmail.com">curiositiesjazz@gmail.com</a>
+    </p>
   </footer>
 </body>
 
