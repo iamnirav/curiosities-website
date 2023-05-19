@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="styles/base.css">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}The Curiosities Jazz Band</title>
+  <title>{% if page.title %}{{ page.title }} · {% endif %}The Curiosities Jazz Band{% unless page.title %} · A tiny San Francisco-based ensemble playing the jazz standards of the 1920s, ’30s, and ’40s.{% endunless %}</title>
 
   <!-- seo follows -->
   {% seo title=false %}
