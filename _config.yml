@@ -21,11 +21,21 @@
 title: The Curiosities Jazz Band
 email: curiositiesjazz@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The Curiosities Jazz Band is a tiny ensemble playing the standards of the 1920s, ’30s, and ’40s.
+  The Curiosities Jazz Band is a tiny San Francisco-based ensemble playing the sweet &amp;
+  hot jazz standards of the 1920s, ’30s, and ’40s.
+image: /images/logo.png
 baseurl: /curiosities-website # the subpath of your site, e.g. /blog
-url: https://iamnirav.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://curiositiesjazz.com # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  iamnirav
 github: [metadata]
+facebook:
+  publisher: https://www.facebook.com/curiositiesjazz
+logo: /images/logo.png
+social:
+  name: The Curiosities Jazz Band
+    - https://www.facebook.com/curiositiesjazz
+    - https://www.instagram.com/curiositiesjazz/
+
 
 # front matter defaults
 defaults:
@@ -39,6 +49,7 @@ defaults:
 theme: null
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
