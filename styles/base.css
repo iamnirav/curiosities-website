@@ -140,6 +140,10 @@ ul.gallery {
 
 ul.gallery li {
   position: relative;
+  padding-bottom: 56.25%;
+  background-position: center;
+  background-size: cover;
+
 }
 
 ul.gallery img {
@@ -152,7 +156,7 @@ ul.gallery img {
 }
 
 ul.gallery h2 {
-  color: white;
+  
   position: absolute;
   top: 0;
   width: 100%;
@@ -165,7 +169,21 @@ ul.gallery h2 {
 }
 
 ul.gallery a {
-  color: #F2EDD5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  font-family: var(--font-family-primary);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 24px;
+  text-transform: uppercase;
   text-decoration: none;
 }
 

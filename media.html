@@ -5,48 +5,13 @@ title: Media
 <main>
   <section>
     <ul class="gallery">
-      <li>
-        <a href="https://www.youtube.com/watch?v=wwFzVnB9wbM" target="_blank">
-          <img src="images/youtube-rose-room.jpg" alt="Thumbnail of a YouTube video" />
-          <h2>“Rose Room”</h2>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=1bjHdlWVVZ0" target="_blank">
-          <img src="images/youtube-if-i-had-you.jpg" alt="Thumbnail of a YouTube video" />
-          <h2>“If I Had You”</h2>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=eymEN3XNAi0" target="_blank">
-          <img src="images/youtube-avalon.jpg" alt="Thumbnail of a YouTube video" />
-          <h2>“Avalon”</h2>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=GPHxt3-O9oc" target="_blank">
-          <img src="images/youtube-rosetta.jpg" alt="Thumbnail of a YouTube video" />
-          <h2>“Rosetta”</h2>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=e0HOi5P-b8Q" target="_blank">
-          <img src="images/youtube-star-dust.jpg" alt="Thumbnail of a YouTube video" />
-          <h2>“Star Dust”</h2>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=cXc9CZQ-2V8" target="_blank">
-          <img src="images/youtube-perdido.jpg" alt="Thumbnail of a YouTube video" />
-          <h2>“Perdido”</h2>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=RaQwmOgPSYo" target="_blank">
-          <img src="images/youtube-undecided.jpg" alt="Thumbnail of a YouTube video" />
-          <h2>“Undecided</h2>
-        </a>
-      </li>
+      {% include thumbnail.html id="wwFzVnB9wbM" title="Rose Room" left="230, 100, 101" right="145, 152, 229" %}
+      {% include thumbnail.html id="1bjHdlWVVZ0" title="If I Had You" left="0,176,155" right="150,201,61" %}
+      {% include thumbnail.html id="eymEN3XNAi0" title="Avalon" left="202,197,49" right="243,249,167" %}
+      {% include thumbnail.html id="GPHxt3-O9oc" title="Rosetta" left="128,0,128" right="255,192,203" %}
+      {% include thumbnail.html id="e0HOi5P-b8Q" title="Star Dust" left="0,242,96" right="5,117,230" %}
+      {% include thumbnail.html id="cXc9CZQ-2V8" title="Perdido" left="252,74,26" right="247,183,51" %}
+      {% include thumbnail.html id="RaQwmOgPSYo" title="Undecided" left="116,235,213" right="72,182,229" %}
     </ul>
   </section>
 </main>

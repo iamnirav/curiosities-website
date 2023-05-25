@@ -6,34 +6,18 @@
   </section>
   <section class="narrow">
     <h3>{{ site.description }}</h3>
-    <p>Catch the band live every 2nd Sunday at <a href="https://www.theliberties.com/" target="_blank">The
-        Liberties</a>, every 4th Wednesday at <a href="http://blackthornsf.com" target="_blank">Blackthorn Tavern</a>,
-      and once a month at <a href="https://www.curiobarsf.com/" target="_blank">Curio</a> (check their <a
-        href="https://www.curiobarsf.com/live-music" target="_blank">live music schedule</a> for details).</p>
+    <p>Catch the band live every 2nd Sunday (4–6 PM) at <a href="https://www.theliberties.com/" target="_blank">The
+        Liberties</a>, every 4th Wednesday (7:30–9:30 PM) at <a href="http://blackthornsf.com" target="_blank">Blackthorn Tavern</a>,
+      and once a month at <a href="https://www.curiobarsf.com/live-music" target="_blank">Curio</a>.</p>
     <p><a href="about.html">Learn more</a> about the Curiosities, <a href="media.html">watch videos</a> of the band, <a
         href="albums.html">buy music</a>, or <a href="contact.html">get in touch</a>!</p>
   </section>
   <section>
     <h2>Videos</h2>
     <ul class="gallery">
-      <li>
-        <a href="https://www.youtube.com/watch?v=wwFzVnB9wbM" target="_blank">
-          <img src="images/youtube-rose-room.jpg" alt="Thumbnail of a YouTube video" />
-          <h2>“Rose Room”</h2>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=eymEN3XNAi0" target="_blank">
-          <img src="images/youtube-avalon.jpg" alt="Thumbnail of a YouTube video" />
-          <h2>“Avalon”</h2>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/watch?v=1bjHdlWVVZ0" target="_blank">
-          <img src="images/youtube-if-i-had-you.jpg" alt="Thumbnail of a YouTube video" />
-          <h2>“If I Had You”</h2>
-        </a>
-      </li>
+      {% include thumbnail.html id="wwFzVnB9wbM" title="Rose Room" left="230, 100, 101" right="145, 152, 229" %}
+      {% include thumbnail.html id="1bjHdlWVVZ0" title="If I Had You" left="0,176,155" right="150,201,61" %}
+      {% include thumbnail.html id="eymEN3XNAi0" title="Avalon" left="202,197,49" right="243,249,167" %}
     </ul>
   </section>
 </main>
