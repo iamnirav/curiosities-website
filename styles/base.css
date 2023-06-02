@@ -121,12 +121,12 @@ section.full-bleed {
   padding: 0;
   margin: 0;
   max-width: unset;
-  height: 600px;
+  height: 768px;
   background-size: cover;
-  background-position: center 35%;
+  background-position: center 20%;
 }
 
-section > img {
+section>img {
   width: 100%;
   height: 400px;
   object-fit: cover;
@@ -143,7 +143,6 @@ ul.gallery li {
   padding-bottom: 56.25%;
   background-position: center;
   background-size: cover;
-
 }
 
 ul.gallery img {
@@ -156,7 +155,6 @@ ul.gallery img {
 }
 
 ul.gallery h2 {
-  
   position: absolute;
   top: 0;
   width: 100%;
@@ -274,7 +272,7 @@ footer p a {
     height: 300px;
   }
 
-  section > img {
+  section>img {
     height: 200px;
   }
 
