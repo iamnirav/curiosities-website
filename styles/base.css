@@ -27,6 +27,8 @@ ul {
 
 p a {
   color: var(--color-cream);
+  border-bottom: 1px solid var(--color-cream);
+  text-decoration: none;
 }
 
 h2 {
